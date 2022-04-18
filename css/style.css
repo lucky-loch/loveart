@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap');
 @font-face {
     font-family: Museo;
-    src: url("../../fonts/MuseoSansLight.otf") format("opentype");
-    src: url("../../fonts/MuseoSansThin.otf") format("opentype");
+    src: url('https://uploads-ssl.webflow.com/57c5dd245cc3aa553acf1266/57c90b36120db7d91b47d7dc_MuseoSans_300.otf') format('opentype');
+    src: url('https://uploads-ssl.webflow.com/57c5dd245cc3aa553acf1266/57c90b35610eadf61b37aed8_MuseoSans_100.otf') format('opentype');
 }
 
 
