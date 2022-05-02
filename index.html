@@ -8,30 +8,43 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css">
-    <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/lightbox.css" />
+    <link rel="stylesheet" href="https://cdn.lineicons.com/3.0/lineicons.css">
+    <link rel="stylesheet" href="css/lightbox.css" />
     <link rel="stylesheet" href="css/style.css" />
 
+    <!-- Website Title-->>
     <title>Lo.Ve Art</title>
-    <link rel="icon" type="image/x-icon" alt="favicon" href="img/logos/small-logo.png">
+    <link rel="icon" type="image/x-icon" alt="favicon" href="img/logos/logo.png">
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light fixed-top sticky" id="navbar">
         <div class="container">
-            <a class="navbar-logo" href="index.html"> <img src="img/logos/small-logo.png" alt="Home"></a>
+            <a class="navbar-logo" href="index.html"> <img src="img/logos/logo.png" alt="Home"></a>
             <!-- <div class="container"> <a class="navbar-brand fw-bold" href="#home">Lo.Ve Art</a> -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span
           class="navbar-toggler-icon"></span> </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav nav ms-auto align-items-center">
-                    <li class="nav-item active"> <a class="nav-link" aria-current="page" href="#home">Home</a> </li>
-                    <li class="nav-item"> <a class="nav-link" aria-current="page" href="#about">About</a> </li>
-                    <li class="nav-item"> <a class="nav-link" aria-current="page" href="#portfolio">Portfolio</a> </li>
-                    <li class="nav-item"> <a class="nav-link" aria-current="page" href="#contact">Contact</a> </li>
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item active">
+                        <a class="nav-link" aria-current="page" href="#home"><img src="img/nav/home.svg" alt="Home"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#about"><img src="img/nav/about.svg" alt="About"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#portfolio"><img src="img/nav/portfolio.svg" alt="Portfolio"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#contact"><img src="img/nav/contact.svg" alt="Contact"></a>
+                    </li>
+                    <!-- <li class="nav-item active"> <a class="nav-link" aria-current="page" href="#home">Home</a> </li> -->
+                    <!-- <li class="nav-item"> <a class="nav-link" aria-current="page" href="#about">About</a> </li> -->
+                    <!-- <li class="nav-item"> <a class="nav-link" aria-current="page" href="#portfolio">Portfolio</a> </li> -->
+                    <!-- <li class="nav-item"> <a class="nav-link" aria-current="page" href="#contact">Contact</a> </li> -->
                 </ul>
             </div>
         </div>
@@ -45,8 +58,8 @@
                     <div class="col-lg-6 text-center pb-lg-0 pb-5">
                         <h4 class="h1 fw-light text-danger">Hello, I'm</h4>
                         <h3 class="display-3 pb-3 fw-bold">Lochan Venna</h3>
-                        <h5 class="h2 pb-4 fw-light"><span class="text-success">Artist</span> | <span class="text-primary">Photograher</span> | <span class="text-info">SAP Architect</span></h5>
-                        <h6 class="h4 pb-5 fw-light lh-base">I'm an Artist by hobby and SAP Architect by profession. I'm very passionate and dedicated to my work and works.</h6>
+                        <h5 class="h2 pb-4 fw-light"><span class="text-success">Artist</span> | <span class="text-primary">Photograher</span> | <span class="text-quote">SAP Architect</span></h5>
+                        <h6 class="h4 pb-5 fw-light lh-base">I'm an Artist by hobby and SAP Architect by profession. I'm very passionate and dedicated to my works.</h6>
                         <div>
                         </div>
                     </div>
@@ -61,7 +74,9 @@
     <div class="back-image-one" id="about">
         <div class="container">
             <div class="row align-items-center pb-5">
-                <div class="col-lg-5 mb-5"> <img src="img/avatars/avatar.png" alt="avatar2" class="img-fluid"> </div>
+                <div class="col-lg-5 mb-5">
+                    <img src="img/avatars/brushes.png" alt="brushes" class="img-fluid">
+                </div>
                 <div class="col-lg-6 offset-lg-1 mb-5">
                     <h3 class="fw-light text-danger pb-3">I'm an Artist and...</h3>
                     <h4 class="display-5 fw-bold pb-4">I just lo.ve to Paint!</h4>
@@ -153,26 +168,30 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="d-flex mb-4">
-                        <div class="p-4 alert-info rounded-circle bb"> <span class="material-icons"> map </span> </div>
-                        <div class="ms-4">
-                            <address>
-                <h4 class="text-muted mb-0 pb-3"> Location </h4>
-                Farmington Hills, MI, USA<br>
-              </address>
-                        </div>
-                    </div>
-                    <div class="d-flex">
-                        <div class="p-4 alert-warning rounded-circle bb"> <span class="material-icons"> email </span> </div>
+                        <!--div class="p-4 alert-info rounded-circle bb"> <span class="material-icons"> map </span> </div-->
+                        <img src="img/social/pin.png" alt="map">
                         <div class="ms-4">
                             <address class="mb-5">
-                <h4 class="text-muted mb-0 pb-3"> Email </h4>
-                <a href="mailto:me@lochan.art" class="text-secondary">me@lochan.art</a>
-              </address>
+                                <h4 class="text-muted mb-0 pb-3"> Location </h4>
+                                    Farmington Hills, MI, USA<br>
+                            </address>
                         </div>
                     </div>
                 </div>
-
                 <div class="col-lg-6">
+                    <div class="d-flex mb-4">
+                        <!--div class="p-4 alert-warning rounded-circle bb"> <span class="material-icons"> email </span> </div-->
+                        <img src="img/social/mail.png" alt="map">
+                        <div class="ms-4">
+                            <address class="mb-5">
+                                <h4 class="text-muted mb-0 pb-3"> E-Mail </h4>
+                                    <a href="mailto:me@lochan.art?subject=Hello!&body=I%20like%20your%20work!%0A%0ARegards," class="text-secondary"><u>me@lochan.art</u></a>
+                            </address>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <!--div class="col-lg-6">
                     <div class=" mt-4">
                         <form>
                             <div class="row mb-2 pt-2">
@@ -189,11 +208,9 @@
                             <button type="submit" class="btn btn-success btn-sm w-40 d-block mt-4">Send Message</button>
                         </form>
                     </div>
-                </div>
-            </div>
+                </div-->
         </div>
     </div>
-
 
     <!----------------contact section ends here---------------------->
 
@@ -202,16 +219,27 @@
             <div class="row py-4">
                 <div class="col-lg-12">
                     <div class="text-center">
-                        <ul class="list-inline social-circle mt-3">
+                        <ul class="list-inline">
+                                <li class="list-inline-item">
+                                    <a href="https://www.instagram.com/luckylochy" target="_blank"><img src="img/social/instagram.svg" alt="instagram"></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://www.linkedin.com/in/lochan-venna-03183973" target="_blank"><img src="img/social/linkedin.svg" alt="linkedin"></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://unsplash.com/@luckyloch" target="_blank"><img src="img/social/unsplash.svg" alt="unsplash"></a>
+                                </li>
+                            </ul>
+<!--                         <ul class="list-inline mt-3">
                             <li class="list-inline-item"><a href="https://www.instagram.com/luckylochy"><i class="lni lni-instagram-original"></i></a></li>
                             <li class="list-inline-item"><a href="https://www.linkedin.com/in/lochan-venna-03183973"><i class="lni lni-linkedin-original"></i></a></li>
                             <li class="list-inline-item"><a href="https://unsplash.com/@luckyloch"><i class="lni lni-unsplash"></i></a></li>
-                        </ul>
-                        <div class="text-white-60 small">
+                        </ul> -->
+                        <div class="text-white-50 small">
                             Made with passion by Lochan Venna ©
                             <script>
                                 document.write(new Date().getFullYear())
-                            </script>. All rights Reserved.
+                            </script>. All rights reserved.
                         </div>
                     </div>
                 </div>
