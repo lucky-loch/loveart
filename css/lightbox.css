@@ -68,8 +68,8 @@ body.lb-disable-scrolling {
 
 .lb-cancel {
     display: block;
-    width: 32px;
-    height: 32px;
+    width: 128px;
+    height: 128px;
     margin: 0 auto;
     background: url(../img/nav/loading.gif) no-repeat;
 }
